@@ -96,14 +96,14 @@ ul {
 .container .card .card__picture {
   min-width: 50%;
   background: url("./images/image-header-desktop.jpg") no-repeat center/cover;
-  height: 400px;
+  height: auto;
   border-radius: 0px 10px 10px 0px;
   position: relative;
   background-position: initial;
 }
 
 .card__picture .picture__overlay {
-  height: 400px;
+  height: 100%;
   background: hsla(244, 38%, 16%, 0.7);
   border-radius: 0px 10px 10px 0px;
 }
@@ -146,6 +146,8 @@ ul {
   .container .card .card__picture {
     background: url("./images/image-header-mobile.jpg") no-repeat center/cover;
     border-radius: 10px 10px 0px 0px;
+    height: 400px;
+    background-origin: inherit;
   }
   .card__picture .picture__overlay {
     border-radius: 10px 10px 0px 0px;
